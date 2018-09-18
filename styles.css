@@ -1,0 +1,121 @@
+.title {
+  animation-name: example;
+  animation-duration: 15s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+  animation-delay: 1s;
+  animation-timing-function: ease;
+  background-color: aquamarine;
+  height: 100vh;
+  width: 100vw;
+}
+@media (min-width: 100px) {
+  .title header {
+    padding: 100px 100px;
+  }
+}
+@media (min-width: 500px) {
+  .title header {
+    padding: 150px 150px;
+  }
+}
+.title header h1 {
+  font-size: 3em;
+  font-family: "Roboto", sans-serif;
+}
+@media (min-width: 100px) {
+  .title header h1 {
+    font-size: 1em;
+  }
+}
+@media (min-width: 500px) {
+  .title header h1 {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 700px) {
+  .title header h1 {
+    font-size: 2em;
+  }
+}
+@media (min-width: 1000px) {
+  .title header h1 {
+    font-size: 2.5em;
+  }
+}
+.title nav {
+  overflow: hidden;
+}
+.title nav li {
+  list-style-type: none;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  padding: 0 20px;
+  font-size: 1.7em;
+}
+@media (min-width: 100px) {
+  .title nav li {
+    padding: 0 0px;
+    font-size: 1em;
+  }
+}
+.title nav li a {
+  text-decoration: none;
+}
+.title nav li a:link {
+  color: purple;
+}
+.title nav li a:visited {
+  color: hotpink;
+}
+
+@keyframes example {
+  0% {
+    background-color: aquamarine;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  75% {
+    background-color: #168e16;
+  }
+  100% {
+    background-color: #74ff74;
+  }
+}
+.about {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+.about h2 {
+  font-size: 2em;
+  font-family: "Roboto", sans-serif;
+  align-self: center;
+}
+@media (min-width: 100px) {
+  .about div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (min-width: 100px) {
+  .about div .portrait {
+    width: 200px;
+  }
+}
+@media (min-width: 500px) {
+  .about div .portrait {
+    width: 300px;
+  }
+}
+.about div p {
+  border: 2px solid red;
+}
+
+/*# sourceMappingURL=styles.css.map */
