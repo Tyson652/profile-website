@@ -109,6 +109,16 @@ nav li a:visited {
   align-self: center;
 }
 
+#about {
+  position: relative;
+  top: -50px;
+}
+
+#projects {
+  position: relative;
+  top: -50px;
+}
+
 .projects {
   display: flex;
   flex-direction: column;
@@ -120,8 +130,8 @@ nav li a:visited {
   align-self: center;
 }
 .projects div {
-  border: 2px solid red;
   position: center;
+  text-align: center;
 }
 .projects div img {
   width: 300px;
