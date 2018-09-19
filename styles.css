@@ -17,6 +17,7 @@ nav li {
   font-size: 1em;
 }
 nav li a {
+  top: -50px;
   text-decoration: none;
 }
 nav li a:link {
@@ -36,15 +37,12 @@ nav li a:visited {
   background-color: aquamarine;
   height: 100vh;
   width: 100vw;
-}
-.title header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100vw;
+  border-bottom: 4px solid purple;
 }
-.title header h1 {
+.title h1 {
   font-size: 1.5;
   font-family: "Roboto", sans-serif;
   display: flex;
@@ -70,10 +68,11 @@ nav li a:visited {
   }
 }
 .about {
-  border: 2px solid red;
   display: flex;
   flex-direction: column;
-  height: 400px;
+  height: 500px;
+  background-color: #f8fbfe;
+  border-bottom: 4px solid purple;
 }
 .about h2 {
   font-size: 2em;
@@ -87,13 +86,30 @@ nav li a:visited {
 }
 .about div .portrait {
   width: 200px;
+  border-radius: 50%;
 }
 .about div p {
-  border: 2px solid red;
+  font-family: "Roboto", sans-serif;
+  margin: 20px 33px 10px 33px;
+  text-align: center;
+}
+.about div ul {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 0;
+}
+.about div ul li {
+  margin: 20px;
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+  padding: 0 2%;
+  font-size: 1em;
+  padding: 0;
+  align-self: center;
 }
 
 .projects {
-  border: 2px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -103,8 +119,13 @@ nav li a:visited {
   font-family: "Roboto", sans-serif;
   align-self: center;
 }
-.projects img {
-  width: 200px;
+.projects div {
+  border: 2px solid red;
+  position: center;
+}
+.projects div img {
+  width: 300px;
+  height: 200px;
   margin: 20px;
 }
 
