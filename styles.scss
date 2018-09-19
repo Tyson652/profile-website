@@ -1,4 +1,6 @@
 
+
+
 .title {
   animation-name: example;
   animation-duration: 15s;
@@ -10,59 +12,45 @@
   height: 100vh;
   width: 100vw;
 
+
   header {
-    // padding: 200px 250px;
-    @media (min-width: 100px) {
-      padding: 100px 100px;
-    }
+    padding: 50vh 20vw;
+    
 
-    @media (min-width: 500px) {
-      padding: 150px 150px;
-    }
-  
-
-    h1 {
-      @media (min-width: 100px) {
-        font-size: 1em;
-      }
-
-      @media (min-width: 500px) {
-        font-size: 1.5em;
-      }
-      
-      @media (min-width: 700px) {
-        font-size: 2em;
-      }
-      
-      @media (min-width: 1000px) {
-        font-size: 2.5em;
-      }
-      
-      font-size: 3em;
+    h1 { 
+      font-size: 1em;
       font-family: 'Roboto', sans-serif;
-    }
+      display: flex;
+      align-self: center;
+    } 
   }
 
   nav {
     overflow: hidden;
+    margin-bottom: 1vh;
+    background-color: beige;
+    position: fixed;
+    width: 100%;
+  
+
+    ul {
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      padding: 0;
+    }
+
 
     li {
       list-style-type: none;
-      display: inline-block;
+      // display: inline-block;
       font-family: 'Roboto', sans-serif;
-
-      @media (min-width: 100px) {
-        padding: 0 0px;
-        font-size: 1em;
-      }
-
-      padding: 0 20px;
-      font-size: 1.7em;
-
+      padding: 0 2%;
+      font-size: 1em;
+      
       a {
         text-decoration: none;
        
-
         &:link {
           color: purple;
         }
@@ -89,42 +77,62 @@
   border: 2px solid red;
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: 400px;
 
   h2 {
     font-size: 2em;
     font-family: 'Roboto', sans-serif;
     align-self: center;
-
   }
 
   div {
-      @media (min-width: 100px) {
       display: flex;
       flex-direction: column;
       align-items: center;
-    }
-
+    
     .portrait {
-      @media (min-width: 100px) {
         width: 200px;
-
       }
-
-      @media (min-width: 500px) {
-        width: 300px;
-      }
-
-    }
-
+    
     p {
       border: 2px solid red;
     }
   }
- 
-  
- 
+}
 
+.projects {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    align-self: center;
+  }
+
+  img {
+    width: 200px;
+    margin: 20px;
+  }
+}
+
+.contact {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+    h2 {
+      font-size: 2em;
+      font-family: 'Roboto', sans-serif;
+      align-self: center;
+    }
+
+    p {
+      font-family: 'Roboto', sans-serif;
+    }
 }
 
 
