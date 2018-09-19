@@ -1,4 +1,39 @@
+nav {
+  overflow: hidden;
+  background-color: beige;
+  position: fixed;
+  width: 100%;
 
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 0;
+  }
+
+
+  li {
+    list-style-type: none;
+    // display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 2%;
+    font-size: 1em;
+    
+    a {
+      text-decoration: none;
+     
+      &:link {
+        color: purple;
+      }
+      
+      &:visited {
+        color: hotpink;
+      }
+    }
+  }
+
+}
 
 
 .title {
@@ -14,54 +49,23 @@
 
 
   header {
-    padding: 50vh 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
     
 
     h1 { 
-      font-size: 1em;
+      font-size: 1.5;
       font-family: 'Roboto', sans-serif;
       display: flex;
       align-self: center;
+      text-align: center;
     } 
   }
 
-  nav {
-    overflow: hidden;
-    margin-bottom: 1vh;
-    background-color: beige;
-    position: fixed;
-    width: 100%;
   
-
-    ul {
-      display: flex;
-      justify-content: center;
-      align-self: center;
-      padding: 0;
-    }
-
-
-    li {
-      list-style-type: none;
-      // display: inline-block;
-      font-family: 'Roboto', sans-serif;
-      padding: 0 2%;
-      font-size: 1em;
-      
-      a {
-        text-decoration: none;
-       
-        &:link {
-          color: purple;
-        }
-        
-        &:visited {
-          color: hotpink;
-        }
-      }
-    }
-
-  }
 
 }
 
