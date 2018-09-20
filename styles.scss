@@ -75,7 +75,7 @@ nav {
 .about {
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: 870px;
   background-color: rgb(248, 251, 254);
   border-bottom: 4px solid purple;
 
@@ -102,11 +102,36 @@ nav {
       text-align: center;
     }
 
+    .skills {
+      width: 90vw;
+      // border: 2px solid red;
+      font-family: 'Roboto', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      ul {
+        position: center;
+        text-align: center;
+        flex-wrap: wrap;
+      }
+
+      li {
+        font-size: 4em;
+      }
+    }
+
+    h3 {
+      font-family: 'Roboto', sans-serif;
+      text-decoration: underline;
+    }
+
     ul {
       display: flex;
       justify-content: center;
       align-self: center;
       padding: 0;
+      margin: 0 0 20px 0;
 
 
       li {
@@ -167,9 +192,26 @@ nav {
       align-self: center;
     }
 
-    p {
-      font-family: 'Roboto', sans-serif;
+    ul {
+      list-style-type: none;
+      font-size: 4em;
+      border: 2px solid red;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      flex-wrap: wrap;
+      text-align: center;
+
+      
+
+      li {
+        // border: 2px solid red;
+        padding: 30px;
+      }
     }
 }
+
 
 
