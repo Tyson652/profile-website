@@ -70,7 +70,6 @@ nav li a:visited {
 .about {
   display: flex;
   flex-direction: column;
-  height: 870px;
   background-color: #f8fbfe;
   border-bottom: 4px solid purple;
 }
@@ -143,6 +142,8 @@ nav li a:visited {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-bottom: 4px solid purple;
+  padding-bottom: 10px;
 }
 .projects h2 {
   font-size: 2em;
@@ -160,7 +161,6 @@ nav li a:visited {
 }
 
 .contact {
-  border: 2px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -169,21 +169,29 @@ nav li a:visited {
   font-size: 2em;
   font-family: "Roboto", sans-serif;
   align-self: center;
+  margin: 0;
+  padding: 10px 0;
+  margin-top: 20px;
 }
 .contact ul {
   list-style-type: none;
   font-size: 4em;
-  border: 2px solid red;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 0;
+  margin: 0;
   flex-wrap: wrap;
   text-align: center;
 }
 .contact ul li {
   padding: 30px;
+  width: 60px;
+  margin: 10px;
+}
+.contact ul a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=styles.css.map */

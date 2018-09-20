@@ -75,7 +75,7 @@ nav {
 .about {
   display: flex;
   flex-direction: column;
-  height: 870px;
+  // height: 870px;
   background-color: rgb(248, 251, 254);
   border-bottom: 4px solid purple;
 
@@ -84,6 +84,7 @@ nav {
     font-size: 2em;
     font-family: 'Roboto', sans-serif;
     align-self: center;
+    
   }
 
   div {
@@ -161,6 +162,9 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-bottom: 4px solid purple;
+  padding-bottom: 10px;
+
 
 
   h2 {
@@ -181,7 +185,7 @@ nav {
 } }
 
 .contact {
-  border: 2px solid red;
+  // border: 2px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -190,17 +194,21 @@ nav {
       font-size: 2em;
       font-family: 'Roboto', sans-serif;
       align-self: center;
+      margin: 0;
+      padding: 10px 0;
+      margin-top: 20px;
     }
 
     ul {
       list-style-type: none;
       font-size: 4em;
-      border: 2px solid red;
+      // border: 2px solid red;
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
       padding: 0;
+      margin: 0;
       flex-wrap: wrap;
       text-align: center;
 
@@ -209,6 +217,12 @@ nav {
       li {
         // border: 2px solid red;
         padding: 30px;
+        width: 60px;
+        margin: 10px; 
+      }
+
+      a {
+        text-decoration: none;
       }
     }
 }
