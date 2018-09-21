@@ -95,6 +95,7 @@ nav {
     .portrait {
         width: 200px;
         border-radius: 50%;
+        border: 5px solid gray;
     }
     
     p {
@@ -181,13 +182,15 @@ nav {
       width: 300px;
       height: 200px;
       margin: 20px;
+      border-radius: 5%;
+      box-shadow: 7px 7px 5px #aaaaaa;   
     }
-} }
+ }
+}
 
 .contact {
-  // border: 2px solid red;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   align-items: center;
 
     h2 {
@@ -226,6 +229,5 @@ nav {
       }
     } 
 }
-
 
 

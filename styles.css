@@ -86,6 +86,7 @@ nav li a:visited {
 .about div .portrait {
   width: 200px;
   border-radius: 50%;
+  border: 5px solid gray;
 }
 .about div p {
   font-family: "Roboto", sans-serif;
@@ -158,6 +159,8 @@ nav li a:visited {
   width: 300px;
   height: 200px;
   margin: 20px;
+  border-radius: 5%;
+  box-shadow: 7px 7px 5px #aaaaaa;
 }
 
 .contact {
