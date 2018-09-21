@@ -84,7 +84,10 @@ nav {
     font-size: 2em;
     font-family: 'Roboto', sans-serif;
     align-self: center;
-    
+  }
+
+  h3 {
+    font-size: 1.3em;
   }
 
   div {
@@ -103,7 +106,7 @@ nav {
       margin: 20px 33px 10px 33px;
       text-align: center;
       padding-top: 10px;
-      font-size: 1.1em;
+      font-size: 1.2em;
     }
 
       .education {
@@ -112,6 +115,7 @@ nav {
         background-color: antiquewhite;
         margin: 20px;
         border: 5px solid gray;
+        font-size: 1.1em;
         
 
         ul {
@@ -135,6 +139,8 @@ nav {
         background-color: rgb(252, 230, 200);
         margin: 20px;
         border: 5px solid gray;
+        font-size: 1.1em;
+
 
         ul {
         display: flex;
@@ -281,6 +287,7 @@ nav {
       }
     } 
 }
+
 
 
 @media (min-width: 560px) {

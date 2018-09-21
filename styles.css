@@ -77,6 +77,9 @@ nav li a:visited {
   font-family: "Roboto", sans-serif;
   align-self: center;
 }
+.about h3 {
+  font-size: 1.3em;
+}
 .about div {
   display: flex;
   flex-direction: column;
@@ -92,7 +95,7 @@ nav li a:visited {
   margin: 20px 33px 10px 33px;
   text-align: center;
   padding-top: 10px;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 .about div .education {
   font-family: "Roboto", sans-serif;
@@ -100,6 +103,7 @@ nav li a:visited {
   background-color: antiquewhite;
   margin: 20px;
   border: 5px solid gray;
+  font-size: 1.1em;
 }
 .about div .education ul {
   display: flex;
@@ -117,6 +121,7 @@ nav li a:visited {
   background-color: #fce6c8;
   margin: 20px;
   border: 5px solid gray;
+  font-size: 1.1em;
 }
 .about div .work ul {
   display: flex;
