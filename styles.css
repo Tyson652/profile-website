@@ -58,10 +58,10 @@ nav li a:visited {
     background-color: yellow;
   }
   50% {
-    background-color: blue;
+    background-color: #eb88fa;
   }
   75% {
-    background-color: #168e16;
+    background-color: #3df9fc;
   }
   100% {
     background-color: #74ff74;
@@ -184,7 +184,7 @@ nav li a:visited {
   flex-direction: column;
   align-items: center;
   border-bottom: 4px solid purple;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   background-color: #f8fbfe;
 }
 .projects h2 {
@@ -205,6 +205,13 @@ nav li a:visited {
 }
 
 .contact {
+  animation-name: example;
+  animation-duration: 15s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+  animation-delay: 1s;
+  animation-timing-function: ease;
+  background-color: aquamarine;
   display: flex;
   flex-direction: column;
   align-items: center;
