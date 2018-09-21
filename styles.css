@@ -43,7 +43,7 @@ nav li a:visited {
   border-bottom: 4px solid purple;
 }
 .title h1 {
-  font-size: 1.5;
+  font-size: 1.8;
   font-family: "Roboto", sans-serif;
   display: flex;
   align-self: center;
@@ -70,7 +70,6 @@ nav li a:visited {
 .about {
   display: flex;
   flex-direction: column;
-  background-color: #f8fbfe;
   border-bottom: 4px solid purple;
 }
 .about h2 {
@@ -92,6 +91,42 @@ nav li a:visited {
   font-family: "Roboto", sans-serif;
   margin: 20px 33px 10px 33px;
   text-align: center;
+  padding-top: 10px;
+  font-size: 1.1em;
+}
+.about div .education {
+  font-family: "Roboto", sans-serif;
+  list-style-type: disc;
+  background-color: antiquewhite;
+  margin: 20px;
+  border: 5px solid gray;
+}
+.about div .education ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: disc;
+  padding-left: 10px;
+}
+.about div .education li {
+  list-style-type: disc;
+  align-self: flex-start;
+}
+.about div .work {
+  font-family: "Roboto", sans-serif;
+  list-style-type: disc;
+  background-color: #fce6c8;
+  margin: 20px;
+  border: 5px solid gray;
+}
+.about div .work ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: disc;
+  padding-left: 10px;
+}
+.about div .work li {
+  list-style-type: disc;
+  align-self: flex-start;
 }
 .about div .skills {
   width: 90vw;
@@ -145,6 +180,7 @@ nav li a:visited {
   align-items: center;
   border-bottom: 4px solid purple;
   padding-bottom: 10px;
+  background-color: #f8fbfe;
 }
 .projects h2 {
   font-size: 2em;
@@ -195,6 +231,42 @@ nav li a:visited {
 }
 .contact ul a {
   text-decoration: none;
+}
+
+@media (min-width: 560px) {
+  .education {
+    width: 500px;
+  }
+
+  .work {
+    width: 500px;
+  }
+
+  h1 {
+    font-size: 2.3em;
+  }
+
+  nav ul li {
+    font-size: 1.2em;
+  }
+
+  .about {
+    font-size: 1.2em;
+  }
+}
+@media (min-width: 800px) {
+  h1 {
+    font-size: 2.7em;
+  }
+
+  nav ul li {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 1100px) {
+  h1 {
+    font-size: 3.3em;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
