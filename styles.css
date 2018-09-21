@@ -13,8 +13,8 @@ nav ul {
 nav li {
   list-style-type: none;
   font-family: "Roboto", sans-serif;
-  padding: 0 2%;
-  font-size: 1em;
+  padding: 0 3%;
+  font-size: 1.2em;
 }
 nav li a {
   top: -50px;
