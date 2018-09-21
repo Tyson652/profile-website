@@ -40,7 +40,7 @@ nav li a:visited {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 4px solid purple;
+  border-bottom: 5px solid gray;
 }
 .title h1 {
   font-size: 1.8;
@@ -70,7 +70,7 @@ nav li a:visited {
 .about {
   display: flex;
   flex-direction: column;
-  border-bottom: 4px solid purple;
+  border-bottom: 5px solid gray;
 }
 .about h2 {
   font-size: 2em;
@@ -97,10 +97,18 @@ nav li a:visited {
   padding-top: 10px;
   font-size: 1.2em;
 }
+.about div .education, .about div .work {
+  animation-name: example;
+  animation-duration: 15s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+  animation-delay: 1s;
+  animation-timing-function: ease;
+  background-color: aquamarine;
+}
 .about div .education {
   font-family: "Roboto", sans-serif;
   list-style-type: disc;
-  background-color: antiquewhite;
   margin: 20px;
   border: 5px solid gray;
   font-size: 1.1em;
@@ -118,7 +126,6 @@ nav li a:visited {
 .about div .work {
   font-family: "Roboto", sans-serif;
   list-style-type: disc;
-  background-color: #fce6c8;
   margin: 20px;
   border: 5px solid gray;
   font-size: 1.1em;
@@ -183,7 +190,7 @@ nav li a:visited {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-bottom: 4px solid purple;
+  border-bottom: 5px solid gray;
   padding-bottom: 20px;
   background-color: #f8fbfe;
 }
