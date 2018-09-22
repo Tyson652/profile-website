@@ -42,25 +42,26 @@ This website is designed to showcase Tyson's projects and web development skills
 
 ## Built With:
 - Visual Studio Code.
+- HTML.
+- CSS.
 - SASS.
+- Github.
 - Website is hosted using Github Pages.
 
 ## Acknowledgments:
 - Devicon who made some of the font icons.
 - Font Awesome who made some of the font icons.
 
-### Difficulty Menu
-![Image of Difficulty Menu](http://i67.tinypic.com/29yqiph.png)
-### Easy Maze
-![Image of Easy Maze](http://i68.tinypic.com/357ewpi.png)
-### Medium Maze
-![Image of Medium Maze](http://i68.tinypic.com/2napct1.png)
-### Hard Maze
-![Image of Hard Maze](http://i67.tinypic.com/2lu2ps4.png)
-### Results Menu
-![Image of Result Menu](http://i65.tinypic.com/nmntqq.png)
-### App User Workflow Diagram
-![User App Workflow Diagram](http://i63.tinypic.com/f3hxzp.jpg)
+### Home Section
+![Image of Home Section](http://i67.tinypic.com/1e01he.png)
+### About Section
+![Image of About Section](http://i67.tinypic.com/2zsppba.png)
+### Projects Section
+![Image of Projects Section](http://i68.tinypic.com/2eowis7.png)
+### Contact Section
+![Image of Contact Section](http://i67.tinypic.com/2lm7xmw.png)
+### Sitemap
+![User App Workflow Diagram](http://i64.tinypic.com/2qc4axw.png)
 
 ## Project Plan & Timeline:
 Used Trello to keep track of progress.
