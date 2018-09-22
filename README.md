@@ -4,35 +4,17 @@
 
 ![Image of Website](http://i67.tinypic.com/1e01he.png)
 
-Link to Git Repository: [GitHub](https://github.com/dav-armour/random-maze-game)
+Link to Git Repository: [GitHub](https://github.com/Tyson652/profile-website)
 
-## Requirements:
-Ruby 2.5.0 [how to install](https://www.ruby-lang.org/en/documentation/installation/)
-
-Rainbow Gem v3.0.0:
-```
-gem install rainbow
-```
-RSpec v3.8.0 (only needed for running tests)
-```
-gem install rspec
-```
-Screen size: 1440 x 900 for hard difficulty.
-
-## How to Run the Game:
-- Download this Git repository.
-- Navigate in terminal to the random-maze-game folder.
-- Navigate into the src folder.
-- Enter 'ruby game.rb' into terminal.
-- Play game.
+## URL: https://tyson652.github.io/profile-website/
 
 ## Purpose:
-The Random Maze Game is a Ruby terminal application designed to prevent boredom by entertaining the user. This engages the users problem solving skills and increases their ability to think many moves ahead. The game does this by randomly generating a maze, that the user must quickly navigate through in order to get a score. The faster the user can find their way through the maze, the higher the score they shall recieve. This game is designed for players of all ages.
+This website is designed to showcase Tyson's projects and web development skills. The website gives information on his education and work history and provides links to his projects and social media accounts. The purpose of this website is to showcase Tyson's work for prospective employers.  
 
 ## Functionality
-- Multiple difficulty levels that change the size of the maze
-- Score based on difficulty and how fast the maze is completed
-- Ability to restart maze at current difficulty or select a different difficulty
+- Responsive design.
+- Navigation bar for smooth page navigation.
+- Links to projects and social media accounts.
 
 #### Planned future functionality:
 - Support login for saving data of multiple players
