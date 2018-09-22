@@ -60,6 +60,25 @@ This website is designed to showcase Tyson's projects and web development skills
 ![Image of Projects Section](http://i68.tinypic.com/2eowis7.png)
 ### Contact Section
 ![Image of Contact Section](http://i67.tinypic.com/2lm7xmw.png)
+### Zen Garden Link
+![Image of Contact Section](http://i67.tinypic.com/jsn2fm.png)
+### Maze Game Link
+![Image of Contact Section](http://i68.tinypic.com/2ni4ljp.png)
+### ATM Link
+![Image of Contact Section](http://i68.tinypic.com/2ujqmna.png)
+### Github Link
+![Image of Contact Section](http://i67.tinypic.com/k50rhv.png)
+### Linkedin Link
+![Image of Contact Section](http://i67.tinypic.com/2lkuyp1.png)
+### Twitter Link
+![Image of Contact Section](http://i68.tinypic.com/nvdus1.png)
+### Facebook Link
+![Image of Contact Section](http://i66.tinypic.com/1zg5fm.png)
+### Email Link
+![Image of Contact Section](http://i67.tinypic.com/2me4eqg.png)
+
+
+
 ### Sitemap
 ![User App Workflow Diagram](http://i64.tinypic.com/2qc4axw.png)
 
@@ -92,8 +111,6 @@ Used Trello to keep track of progress.
 - Day 5:
   - Presented website.
 
-
-
 ## Wireframes:
 Created wireframes using Balsamiq Mockups 3.
 ### Home Section
@@ -105,43 +122,8 @@ Created wireframes using Balsamiq Mockups 3.
 ### Contact Section
 ![Image of Contact Section Wireframe](http://i67.tinypic.com/65boyp.png)
 
-
-### Stretch Goals:
-- Leader board
-- Show solution
-- Save level
-- User names
-
-### Planning code structure
-Wrote down structure needed for each class and layout of maze.
-![Image of planning stage 1](http://i67.tinypic.com/28a6xiq.jpg)
-![Image of planning stage 2](http://i68.tinypic.com/212ybet.jpg)
-![Image of planning stage 3](http://i65.tinypic.com/295bi1v.jpg)
-![Image of planning stage 4](http://i67.tinypic.com/15n8514.jpg)
-
-
-## Testing
-Used Rspec for testing. Created multiple tests for each model to ensure proper functioning. Also ran repeated user tests while creating the app so that we could find issues as we went.
-
-To run rspec tests:
-- Navigate in terminal to the random-maze-game folder.
-- Navigate into the src folder.
-- Enter 'rspec' into terminal.
-![Image of rspec tests](http://i65.tinypic.com/2na5i0i.png)
-
-## Ethical Issues:
-- Taking over the world and destroying lives because it is so addictive.
-- Excessive playing of this game may result in negative emotional, social and relational consequences.
-- [Addiction Help](https://www.psychguides.com/guides/video-game-addiction-symptoms-causes-and-effects/)
-
 ## Accessibility Requirements:
-- Game requires ability to give input with keyboard.
-- Game uses default terminal colour for displaying maze and menu options. Can change your default terminal colour if colour blindness is an issue.
-- Game does not require the use of sound.
-- Unfortunately game would not work for people with vision problems as text to speech for this kind of game would not be possible.
+- Website works with a screen reader for people with vision problems.
+- Website does not require the use of sound.
 
-## Challenges:
-- The hardest part was the random maze generation.
-- Fixing our endless recursion nightmare.
-- Finding out how to use the arrow keys.
-- Making the player icon unable to move through the walls.
+
