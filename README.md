@@ -65,7 +65,7 @@ This website is designed to showcase Tyson's projects and web development skills
 
 ## Project Plan & Timeline:
 Used Trello to keep track of progress.
-[Link to trello board](https://trello.com/b/GvRqDfbp/random-maze-generator)
+[Link to trello board](https://trello.com/b/hxySlwS1/my-profile-website)
   ### End of Day 1
 ![Image of trello board at end of day 1](http://i63.tinypic.com/5whtz7.png)
 - Day 1:
@@ -94,13 +94,17 @@ Used Trello to keep track of progress.
 
 
 
-## Planning & Design:
-Conducted brainstorming session to come up with app ideas.
-### Ideas List:
-- Game menu
-- Player score
-- Timer
-- Difficulty levels
+## Wireframes:
+Created wireframes using Balsamiq Mockups 3.
+### Home Section
+![Image of Home Section Wireframe](http://i64.tinypic.com/2wq8nso.png)
+### About Section
+![Image of About Section Wireframe](http://i63.tinypic.com/15i7nkg.png)
+### Projects Section
+![Image of Projects Section Wireframe](http://i64.tinypic.com/f5d6d5.png)
+### Contact Section
+![Image of Contact Section Wireframe](http://i67.tinypic.com/65boyp.png)
+
 
 ### Stretch Goals:
 - Leader board
