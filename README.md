@@ -66,22 +66,33 @@ This website is designed to showcase Tyson's projects and web development skills
 ## Project Plan & Timeline:
 Used Trello to keep track of progress.
 [Link to trello board](https://trello.com/b/GvRqDfbp/random-maze-generator)
-  ### Start of Day 1
-![Image of trello board at start of day 1](http://i63.tinypic.com/2zf07qx.png)
+  ### End of Day 1
+![Image of trello board at end of day 1](http://i63.tinypic.com/5whtz7.png)
 - Day 1:
-  - Worked on randomly generating the maze.
-  - Worked on player class and player movement.
-  - Figured out how to use arrow keys to move player.
-  ### Start of Day 2
-![Image of trello board at start of day 2](http://i66.tinypic.com/dsajp.png)
-- Day 2:
-  - Worked on making the players score.
-  - Worked timer for game.
-  - Worked on game menus.
-  - Worked on difficulty levels.
-  - Complete documentation and slide show
+  - Worked on title and home screen
+  - Worked on navigation bar.
   ### End of Day 2
-![Image of trello board at end of day 2](http://i64.tinypic.com/35i4x04.png)
+![Image of trello board at end of day 2](http://i66.tinypic.com/35ji81w.png)
+- Day 2:
+  - Worked on about section with profile picture.
+  - Worked on projects section.
+  - Worked on contact section.
+ ### End of Day 3
+![Image of trello board at end of day 3](http://i65.tinypic.com/2lkwjo5.png)
+- Day 3:
+  - Worked on making the website responsive.
+ ### End of Day 4
+![Image of trello board at end of day 4](http://i65.tinypic.com/2lo5hk4.png)
+- Day 4:
+  - Worked on website design.
+  - Worked on icons and pictures.
+  - Worked on hover animations.
+ ### End of Day 5
+![Image of trello board at end of day 5](http://i67.tinypic.com/5u3pu.png)
+- Day 5:
+  - Presented website.
+
+
 
 ## Planning & Design:
 Conducted brainstorming session to come up with app ideas.
