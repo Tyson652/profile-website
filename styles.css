@@ -3,6 +3,7 @@ nav {
   background-color: beige;
   position: fixed;
   width: 100%;
+  z-index: 99;
 }
 nav ul {
   display: flex;
@@ -86,7 +87,7 @@ nav li a:visited {
   align-items: center;
 }
 .about div .portrait {
-  width: 200px;
+  width: 230px;
   border-radius: 50%;
   border: 5px solid gray;
 }
@@ -252,13 +253,13 @@ nav li a:visited {
   text-decoration: none;
 }
 
-@media (min-width: 560px) {
+@media (min-width: 610px) {
   .education {
-    width: 500px;
+    width: 580px;
   }
 
   .work {
-    width: 500px;
+    width: 580px;
   }
 
   h1 {
@@ -414,6 +415,10 @@ nav li a:visited {
   animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+}
+
+.test {
+  transform: rotate(20deg);
 }
 
 /*# sourceMappingURL=styles.css.map */

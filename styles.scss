@@ -4,6 +4,7 @@ nav {
   background-color: beige;
   position: fixed;
   width: 100%;
+  z-index: 99;
 
 
   ul {
@@ -93,7 +94,7 @@ nav {
       align-items: center;
     
     .portrait {
-        width: 200px;
+        width: 230px;
         border-radius: 50%;
         border: 5px solid gray;
     }
@@ -296,13 +297,13 @@ nav {
 
 
 
-@media (min-width: 560px) {
+@media (min-width: 610px) {
   .education {
-    width: 500px;
+    width: 580px;
   }
 
   .work {
-    width: 500px;
+    width: 580px;
   }
 
   h1 {
@@ -461,7 +462,7 @@ nav {
   animation-iteration-count: infinite;
 }
 
-
-
-
+.test {
+  transform: rotate(20deg);
+}
 
