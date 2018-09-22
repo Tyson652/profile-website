@@ -17,63 +17,37 @@ This website is designed to showcase Tyson's projects and web development skills
 - Links to projects and social media accounts.
 
 #### Planned future functionality:
-- Support login for saving data of multiple players
-- Show leader board of top players
-- Save current maze so that it can be resumed later
-- Show maze solution
-- External server to store leaderboard
+- Rework page design.
+- Improve Navigation bar.
+- Change animation.
+- Improve contact section.
 
 ## Instructions For Use:
-- To begin playing The Random Maze Game simply select a difficulty level by selecting either "1" for Easy, "2" for Medium, or "3" for Hard. Selecting a difficulty level will bring up the maze.
-- Your player icon is "P" it displays the users position in the maze. Move the player icon by using the arrow or WASD keys to navigate through the maze. Your goal is to make your way through the maze as quickly as possible.
-- Once you reach the end of the maze another menu screen will appear. This screen will tell how fast you made it through the maze and will also give you a score. However if the player does not reach the end of the maze before time limit runs out the player will recieve a score of 0. The time limit is 20 seconds on Easy, 30 seconds on Medium and 40 seconds on Hard.
-- On this screen there will also be 3 options for you to choose. Pressing "1" will recreate the maze at the current difficulty level. Pressing "2" will bring you back to the first option menu where you can change your difficuly level. Pressing "3" will exit the game.
+- Go to https://tyson652.github.io/profile-website/ on a web browser.
+- Use navigation bar at the top of the page to navigate to the different sections.
+- Click on the images in the project section to open the project in a new tab.
+- Click on the icons in the contact section to be redirected to Tyson's social media pages. Click on the envelope icon to send Tyson an email.
 
 ## Files:
-- game.rb
-  - Main application file that controls game logic.
-- maze.rb
-  - Model used for maze creation.
-- cell.rb
-  - Model for each individual cell, stores position and available directions.
-- player.rb
-  - Model used for player position and movement.
-- menu.rb
-  - Model used for the game menus.
-
-## Maze Creation Algorithm
-Made use of a custom made recursive backtracker algorithm. Based on information obtained from [Wikipedia](https://en.wikipedia.org/wiki/Maze_generation_algorithm#Recursive_backtracker). Uses recursion to keep restarting the method until maze is done.
-
-#### Maze Generation Pseudo Code:
-```
-stack = empty array
-Starting cell = random x, y
-x, y = starting cell
-
-method x,y
-  mark current cell as visited
-  choices = unvisited surrounding cells
-  if no choices:
-    if stack empty:
-      MAZE DONE - exit recursion
-    set x, y to previous cell (pop from stack)
-    restart method
-  randomly choose one cell from choices
-  set x, y = chosen cell
-  add chosen direction to current cell's available directions
-  add opposite direction to new cell's available directions
-  push current cell onto stack
-  remove wall between current cell and chosen cell
-  restart method
-
-print maze
-```
+- index.html
+  - Main HTML file for the website.
+- styles.css
+  - Main CSS file for the website.
+- styles.scss
+  - SCSS file used for SASS.
+- styles.scss.map
+  - File used to link styles.scss and styles.css
+- pics folder
+  - Contains images used on the website.
 
 ## Built With:
 - Visual Studio Code.
+- SASS.
+- Website is hosted using Github Pages.
 
 ## Acknowledgments:
-- Marcin Kulik and other contributors who made the rainbow ruby gem.
+- Devicon who made some of the font icons.
+- Font Awesome who made some of the font icons.
 
 ### Difficulty Menu
 ![Image of Difficulty Menu](http://i67.tinypic.com/29yqiph.png)
