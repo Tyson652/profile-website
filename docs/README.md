@@ -39,6 +39,8 @@ This website is designed to showcase Tyson's projects and web development skills
   - File used to link styles.scss and styles.css
 - pics folder
   - Contains atm-pic.png, bali.jpg, maze-pic.png, zen-pic.png which are used on the website.
+- docs folder
+  -Contains README.md and Profile Website.pdf.
 
 ## Built With:
 - Visual Studio Code.
@@ -52,6 +54,7 @@ This website is designed to showcase Tyson's projects and web development skills
 - Devicon who made some of the font icons.
 - Font Awesome who made some of the font icons.
 - Nicolas Gallagher for the normalize.css file.
+- Ian Lunn for the hover animations.
 
 ### Home Section
 ![Image of Home Section](http://i67.tinypic.com/1e01he.png)
