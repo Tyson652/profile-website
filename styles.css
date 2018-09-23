@@ -50,7 +50,7 @@ nav li a:visited {
   animation-duration: 15s;
   animation-iteration-count: 2;
   animation-direction: alternate;
-  animation-delay: 1s;
+  animation-delay: 2s;
   animation-timing-function: ease;
   background-color: aquamarine;
   height: 100vh;
