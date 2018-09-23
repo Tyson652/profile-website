@@ -65,7 +65,7 @@ This website is designed to showcase Tyson's projects and web development skills
 ### Contact Section
 ![Image of Contact Section](http://i67.tinypic.com/2lm7xmw.png)
 ### Zen Garden Link
-![Image of Contact Section](http://i67.tinypic.com/jsn2fm.png)
+![Image of Contact Section](http://i63.tinypic.com/29cxjk6.png)
 ### Maze Game Link
 ![Image of Contact Section](http://i68.tinypic.com/2ni4ljp.png)
 ### ATM Link
