@@ -38,7 +38,7 @@ This website is designed to showcase Tyson's projects and web development skills
 - styles.scss.map
   - File used to link styles.scss and styles.css
 - pics folder
-  - Contains images used on the website.
+  - Contains atm-pic.png, bali.jpg, maze-pic.png, zen-pic.png which are used on the website.
 
 ## Built With:
 - Visual Studio Code.
@@ -51,6 +51,7 @@ This website is designed to showcase Tyson's projects and web development skills
 ## Acknowledgments:
 - Devicon who made some of the font icons.
 - Font Awesome who made some of the font icons.
+- Nicolas Gallagher for the normalize.css file.
 
 ### Home Section
 ![Image of Home Section](http://i67.tinypic.com/1e01he.png)
@@ -76,9 +77,6 @@ This website is designed to showcase Tyson's projects and web development skills
 ![Image of Contact Section](http://i66.tinypic.com/1zg5fm.png)
 ### Email Link
 ![Image of Contact Section](http://i67.tinypic.com/2me4eqg.png)
-
-
-
 ### Sitemap
 ![User App Workflow Diagram](http://i64.tinypic.com/2qc4axw.png)
 
@@ -125,5 +123,13 @@ Created wireframes using Balsamiq Mockups 3.
 ## Accessibility Requirements:
 - Website works with a screen reader for people with vision problems.
 - Website does not require the use of sound.
+
+## Short Answer Q&A:
+#### Describe key events in the development of the internet from the 1980s to today.
+- The commercial version of the internet started coming together in the 1980s. Telenet was built in 1982 and was the worlds frst commercial service. Domain Name Servers started appearing in 1984 which was the beginning of tiered web address we have today. The 90s brought about hypertext markup language created by the scientists at CERN. They also made the URL the standard address format used the find information online. Tim Berbers-Lee brought about linking HTML with TCP/IP and domain names and is credited as the creator of the World Wide Web. Archie, the worlds first search engine was also created. In 1993, Mosaic became the worlds first internet browser. In 1995 JavaScript came about and would soon before a core component of the internet. In 1994 the internet started growing rapidly going from 3000 websites to 2.5 million over the next 2 years.
+#### Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers.
+- Domain Name Severs (DNS) manage a directory of domain names and translate them into IP address. This then gives web browsers the ability to find a website by entering the domain name into the browser. The website is stored on a web server normally found in a data center which is operated by a hosting company. These web servers simply serve up the website files whenever they are prompted by a request from a web browser and the DNS is simply the sever which connects the web server with the correct computer so the website files go to the correct computer.
+#### Reflect on one aspect of the development of internet technologies and how it has contributed to the world today.
+- Email was born in 1965 with the program “Mailbox”, which could leave messages for other users but only on the same computer. In 1969, ARPANET was created which connected numerous computers in a department allowing for fast communication, however it wasn’t till 1971, when electronic mail was developed creating ARPANET’s networked email system. This development went on,constantly developing and leading to the development of the world wide web. Email is now a integral part of daily life with over 2.6 billion active users and 4.6 billion active email accounts.
 
 
